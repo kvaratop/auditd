@@ -816,3 +816,10 @@
 # Make The Configuration Immutable --------------------------------------------
 
 ##-e 2
+
+
+## Monitor critical file changes
+-w /var/www/html/ -p w -k monitor-changes-web
+
+
+
